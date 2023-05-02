@@ -6,7 +6,6 @@
         <TextBlock Text="Изменения выполнил студент группы 4335 Газизуллин Булат"
                HorizontalAlignment="Center" VerticalAlignment="Center"
                FontSize="30" TextWrapping="Wrap" FontStyle="Italic"/>
-        <Button Content="Импорт данных" HorizontalAlignment="Left" Margin="47,220,0,0" VerticalAlignment="Top" Height="40" Width="110"/>
-        <Button Content="Экспорт в Excel" HorizontalAlignment="Left" Margin="298,219,0,0" VerticalAlignment="Top" Height="42" Width="110"/>
+        <Button Content="Лабораторная работа 2 и 3" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="40" Width="219" Click="Button_Click"/>
     </Grid>
 </Window>

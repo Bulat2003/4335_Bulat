@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,13 @@ namespace Template_4335.Windows
         public Gazizullin_4335()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window_lab2_3_Gazizullin window_Lab2_3_Gazizullin = new Window_lab2_3_Gazizullin();
+            window_Lab2_3_Gazizullin.Show();
+            this.Close();
         }
     }
 }
